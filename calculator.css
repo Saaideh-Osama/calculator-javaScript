@@ -16,8 +16,7 @@ body{
     background-color: rgb(255, 255, 255);
     justify-content: center;
     align-items: stretch;
-    
-}
+    }
 .calculator-result{
     grid-column: 1/5;
     grid-row: 1;
@@ -26,6 +25,8 @@ body{
     padding: 0px;
     font-size: 4em;
     border: #dadce0 1px solid;
+    display: flex;
+    flex-wrap: wrap;
 }
 .calculator-button{
     background: #f1f3f4;
@@ -49,4 +50,14 @@ body{
 }
 button:active{
     background-color: aquamarine;
+}
+#resultcorner{
+    height: 5rem;
+    width:200px ;
+   position: absolute;
+    top:12.96vh;
+    right: 32.6vw;   
+    font-size: 4em;
+    text-align: center;
+    color: rgb(210, 209, 209);
 }

@@ -9,7 +9,7 @@
 <body>
     
 <div class="calculator-body">
-<div class="calculator-result" id="result"><span id="result-field"></span></div>
+<div class="calculator-result" id="result"> </div>
 
     <button id="btn1" class="calculator-button" onClick="add1()">1</button>
     <button id="btn2" class="calculator-button" onClick="add2()">2</button>
@@ -25,10 +25,11 @@
     <button id="btn*" class="orange calculator-button" onClick="addmul()">*</button>
     <button id="btnC" class="orange calculator-button"onClick="Clear()" >C</button>
     <button id="btn0" class="calculator-button" onClick="add0()"> 0</button>
-    <button id="btn=" class="orange calculator-button" >=</button>
-    <button id="btn/" class="orange calculator-button" onClick="adddiv()">/</button>
+    <button id="btn=" class="orange calculator-button" onClick="evale()">=</button>
+    <button id="btn/" class="orange calculator-button" onClick="adddiv()">÷</button>
 
 </div>
+<span id="resultcorner"></span>
 <script src="calculator.js"></script>
 </body>
 </html>
